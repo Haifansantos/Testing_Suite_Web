@@ -1,20 +1,19 @@
 # 🛒 Web Automation Testing Suite
 
-Automated **end-to-end tests** for a demo e-commerce website using **Selenium WebDriver** and **pytest**.  
-This project showcases practical QA automation skills by covering core user flows: login, product visibility, add to cart, and checkout.
+This project contains automated tests for a demo e-commerce website using **Selenium WebDriver** and **pytest**.  
+It simulates key user flows such as login, browsing products, adding items to the cart, and completing a checkout.
 
 ---
 
-## ⚙️ Technologies & Tools
+## ⚙️ Technologies Used
 
-| Technology        | Version       |
-|-------------------|---------------|
-| Python            | 3.x           |
-| Selenium WebDriver| Latest        |
-| pytest            | Latest        |
-| webdriver-manager | Latest        |
-| Browser           | Google Chrome |
+| Tool/Library        | Purpose                      |
+|---------------------|-------------------------------|
+| Python              | Programming language          |
+| Selenium WebDriver  | Web interaction automation    |
+| pytest              | Running and organizing tests  |
+| webdriver-manager   | Managing browser drivers      |
+| Google Chrome       | Target browser for testing    |
 
 ---
-
 
