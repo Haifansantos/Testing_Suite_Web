@@ -1,29 +1,8 @@
 Web Automation Testing Suite
-Overview
-This project contains an automated testing suite for a simple e-commerce web application using Selenium WebDriver and Python. The goal is to demonstrate practical skills in Quality Assurance (QA) engineering by implementing end-to-end tests covering core functionalities such as login, product visibility, add to cart, and checkout.
+Automated end-to-end testing suite for a demo e-commerce website using Selenium WebDriver and pytest.
+This project demonstrates QA automation skills by covering key flows: login, product visibility, add to cart, and checkout.
 
-Features
-Automated browser testing using Selenium WebDriver
-
-Test cases covering:
-
-User login
-
-Product visibility verification
-
-Adding product to cart
-
-Checkout process
-
-Reusable WebDriver setup with pytest fixtures
-
-Automatic screenshot capture on test failures
-
-Structured tests split across multiple files for maintainability
-
-Compatible with Chrome via WebDriver Manager
-
-Technologies Used
+🛠️ Technologies
 Python 3.x
 
 Selenium WebDriver
@@ -32,55 +11,49 @@ pytest
 
 webdriver-manager
 
-Google Chrome browser
+Google Chrome
 
-Getting Started
-Prerequisites
-Python 3.x installed on your machine
-
-Google Chrome browser installed
-
-Git installed (optional, for cloning the repo)
-
-Installation
-Clone the repository:
+🚀 Setup & Run
+Clone repository
 
 bash
 Copy
 Edit
 git clone https://github.com/Haifansantos/Web-Automation.git
 cd Web-Automation
-Install required Python packages:
+Install dependencies
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Note: Make sure requirements.txt includes selenium, pytest, and webdriver-manager.
-
-Running Tests
-To execute the full test suite, run:
+Run tests
 
 bash
 Copy
 Edit
 pytest
-Tests will launch Chrome browser sessions and run through defined test scenarios. On failures, screenshots will be saved in the reports/screenshots directory.
+Screenshots on failure saved in /reports/screenshots/
 
-Project Structure
+📂 Project Structure
+arduino
 Copy
 Edit
 Web-Automation/
-│
+├── conftest.py             # pytest fixtures & config
+├── requirements.txt        # dependencies
 ├── tests/
 │   ├── test_login.py
 │   ├── test_product_visibility.py
 │   ├── test_add_to_cart.py
 │   └── test_checkout.py
-│
-├── utils/
-│   └── driver_setup.py
-│
-├── conftest.py
-├── requirements.txt
-└── README.md
+└── utils/
+    └── driver_setup.py     # webdriver helper
+✔️ Test Coverage
+User login
+
+Product visibility on inventory page
+
+Adding item to shopping cart
+
+Checkout flow with user info and order completion****
