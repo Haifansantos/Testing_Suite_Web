@@ -6,9 +6,9 @@
 **Application Under Test:** https://demoqa.com/  
 **Test Type:** Functional & UI Automation Testing  
 **Testing Framework:** Selenium WebDriver + Python + Pytest  
-**Test Environment:** Chrome Browser (Latest Version)  
-**Test Duration:** 2 weeks  
-**Tester:** [Your Name]
+**Test Environment:** Chrome Browser   
+**Test Duration:** 1 weeks  
+**Tester:** Haifan Santos
 
 ## 2. Test Objectives
 
