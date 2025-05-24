@@ -310,6 +310,4 @@
 
 ---
 
-**Document Version:** 1.0  
-**Last Updated:** [Current Date]  
-**Approved By:** [Your Name]
+
